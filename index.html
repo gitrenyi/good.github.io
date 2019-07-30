@@ -1,43 +1,90 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--网页头部-->
-<title>我的主页</title>
-</head>
+    <title>HiRenyi</title>
+    <meta  name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.js"></script>
+   <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        body{
+            padding-top: 70px;
+            background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564478221502&di=779a9dfe20a3f80d49af257fe010ce1e&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fwallpaper%2F1207%2F09%2Fc1%2F12275680_1341814069057.jpg);
+            /* 背景图垂直、水平均居中 */
+            background-position: center center;
+            /* 背景图不平铺 */
+            background-repeat: no-repeat;
 
-<!--body部分为网页显示内容-->
-<body background="image/2.jpg" bgproperties="fixed">
-<!--标题-->
-<h1><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 个人主页</strong></h1>
-<table width="89%" border="0" align="center" cellpadding="0" cellspacing="0">
-<tr><th width="243" height="50" align="center" valign="middle" bgcolor="#66FF00"><h3>我的主页</h3></th>
-<td width="277" height="50" align="center" valign="middle" bgcolor="#66FF33"><h3>个人简介</h3></td>
-<td width="268" height="50" align="center" bgcolor="#66FF66"><h3>个人爱好</h3></td>
-    <td width="204" height="18" align="center" bgcolor="#66FF99"><h3>未来展望</h3></td>
-</tr>
-</table>
-<table width="89%" height="418" border="0" align="center">
-  <tr>
-    <td colspan="2" align="center"><font color="#FF9933" size="+2"><b>个人简介</b></font></td>
-    <td width="163">&nbsp;</td>
-    <td width="205" rowspan="3"><a href="school.html"  target="_blank"><img src="image/1.jpg" /></a></td>
-  </tr>
-  <tr>
-    <td height="282" colspan="3"><p class="style3">姓名：***</p>
-        <p class="style3">学校： ****</p>
-    <p class="style3">生平：。</p></td>
-   
-  </tr>
-  <tr>
-    <td width="121" height="50">友情链接</td>
-    <td width="477"><a href=""  target="_blank">QQ空间</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cn/"  target="_blank">大学</a></td>
-    <td>&nbsp;</td>
-   
-  </tr>
-  <tr>
-    <td height="44" colspan="4" align="center">&copy;CopyRight 2005-2011 www.itzcn.com AllRights Reserved</td>
-  </tr>
-</table>
+            /*background-color: #efefef;*/
+            
+        }
+        .container1{width:1000px;}
+       
+    </style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+        <div class="panel panel-success"  >
+            <div class="panel-body">
+                
+                
+                
+                <div class="col-xs-4">
+            <iframe src="http://music.163.com/outchain/player?type=0&amp;id=489594488&amp;auto=1&amp;height=430" width="100%" height="300" frameborder="no" marginwidth="0" marginheight="0"></iframe> 
+
+			
+		</div>
+        <div class="col-xs-8">
+            <p>
+				<em>Git</em>是一个分布式的版本控制系统，最初由<strong>Linus Torvalds</strong>编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在Ruby社区中。
+			</p>
+        </div>
+                
+                
+            </div>
+        </div>
+		
+	</div>
+    
+    
+    <div class="row">
+        <div class="panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title">面板标题</h3>
+    </div>
+    <div class="panel-body">
+        
+        <div class="col-xs-4">
+                
+                <h2>HTML5 and JS Apps</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>
+                    <a class="btn btn-success btn-large" href="#">View apps</a></p>
+               
+            </div>
+            <div class="col-xs-4">
+                <h2>Ruby Apps</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>
+                    <a class="btn btn-success btn-large" href="#">View apps</a></p>
+            </div>
+            <div class="col-xs-4">
+                <h2>PHP MySQL Apps</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p>
+                    <a class="btn btn-success btn-large" href="#">View apps</a></p>
+            </div>
+        
+    </div>
+  </div>
+            
+        
+    
+	
+    </div>
+
 </body>
 </html>
